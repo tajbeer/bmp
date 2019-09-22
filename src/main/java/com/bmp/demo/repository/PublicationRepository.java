@@ -1,4 +1,4 @@
-package repository;
+package com.bmp.demo.repository;
 
 import java.util.List;
 

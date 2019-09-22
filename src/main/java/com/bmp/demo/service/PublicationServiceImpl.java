@@ -4,11 +4,12 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.bmp.demo.model.Publication;
+import com.bmp.demo.repository.PublicationRepository;
 
-import repository.PublicationRepository;
-
+@Service
 public class PublicationServiceImpl implements PublicationService {
 
 	private PublicationRepository repository;

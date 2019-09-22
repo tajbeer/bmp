@@ -4,11 +4,12 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.bmp.demo.model.Author;
+import com.bmp.demo.repository.AuthorRepository;
 
-import repository.AuthorRepository;
-
+@Service
 public class AuthorServiceImpl implements AuthorService {
 	
 	private AuthorRepository repository;
